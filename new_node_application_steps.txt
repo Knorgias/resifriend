@@ -1,0 +1,33 @@
+    1  goto dev
+    2  cd c:/dev
+    3  mkdir animated-goggles
+    4  cd animated-goggles/
+    5  git remote add origin git@github.com:Knorgias/animated-goggles.git
+    6  git init
+    7  git init
+    8  git remote add origin git@github.com:Knorgias/animated-goggles.git
+    9  git push -u origin master
+   10  touch README.txt
+   11  echo "My personal nodejs playground" > README.txt
+   12  git add .
+   13  git commit -am "initialization of repository"
+   14  git push origin master
+   15  cd ..
+   16  mkdir retrocarlet
+   17  cd retrocarlet/
+   18  git init
+   19  echo "Personal project repository" > README.txt
+   20  git add .
+   21  git remote add origin git@github.com:Knorgias/retrocatlet.git
+   22  git push -u origin master
+   23  git commit -am "Uploading README to new rep for init"
+   24  git push -u origin master
+   25  node start
+   26  node init
+   27  node install
+   28  npm start
+   29  npm init
+   30  npm install --save express express-session
+   31  npm install --save sequelize
+   32  echo "node_modules" > .gitignore
+   33  history > new_node_application_steps.txt

@@ -1,0 +1,24 @@
+{
+  "name": "retrocarlet",
+  "version": "1.0.0",
+  "description": "Personal project, retro car rental e-market",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knorgias/retrocatlet.git"
+  },
+  "author": "Konstantinos Norgias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knorgias/retrocatlet/issues"
+  },
+  "homepage": "https://github.com/Knorgias/retrocatlet#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "sequelize": "^3.30.2"
+  }
+}
