@@ -19,6 +19,8 @@
   "dependencies": {
     "express": "^4.15.2",
     "express-session": "^1.15.1",
+    "nodemon": "^1.11.0",
+    "pg": "^6.1.5",
     "sequelize": "^3.30.2"
   }
 }
